@@ -42,3 +42,9 @@ $ git init
 ```
 $ touch .gitignore
 ```
+
+## Log 포멧 설정
+
+```
+$ git log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short
+```
