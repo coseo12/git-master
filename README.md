@@ -35,53 +35,10 @@
 $ git init
 ```
 
-## 상태
-
-```
-$ git status
-```
-
-## Git Workflow
-
-- Working directory: work area
-
-- stating area: add
-
-- .git directory: commit
-
-## Git stating
-
-- 추가
-
-  ```
-  $ git add [file_name]
-  ```
-
-- 제거
-
-  ```
-  $ git rm --cached [file_name]
-  ```
-
 ## Git ignore
 
 예외처리 설정 파일
 
 ```
 $ touch .gitignore
-```
-
-## Git commit
-
-- commit
-  ```
-  $ git commit -m "message"
-  ```
-
-## git diff
-
-수정 정보 확인
-
-```
-$ git diff
 ```
