@@ -49,8 +49,14 @@ $ touch .gitignore
 $ git log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short
 ```
 
-alias 설정
+- alias 설정
 
-```
- git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short"
-```
+  ```
+  git config --global alias.hist "log --graph --all --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(white)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --date=short"
+  ```
+
+## UI / CMD 툴
+
+- [SourceTree](https://www.sourcetreeapp.com/)
+
+- [Tig](https://jonas.github.io/tig/)
