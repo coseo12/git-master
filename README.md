@@ -20,11 +20,11 @@
   $ git config --global user.email "user@email.com"
   ```
 - 줄바꿈 설정
-  - MAC:
+  - Mac🍎:
     ```
     $ git config core.autocrlf input
     ```
-  - Windows:
+  - Windows🖥:
     ```
     $ git config core.autocrlf true
     ```
